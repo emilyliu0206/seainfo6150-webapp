@@ -11,6 +11,7 @@
     border: 1px solid #cc0000;
     margin-top: 20px;
     padding: 0px 10px 10px 10px;
+    background-image: linear-gradient(to right, #CE5A5A, white 20%);
 }
 .item:first-child {
     margin-top: 0px;

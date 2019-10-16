@@ -1,0 +1,10 @@
+.image {
+    border: 0.5rem;
+    border-style: solid;
+    border-color: #CC0000;
+    margin: 1rem;
+    border-radius: 50%;
+    box-shadow: 0rem 0.7rem 1.1rem #3E3E3E;
+    width: 10rem;
+    float:left;
+}
