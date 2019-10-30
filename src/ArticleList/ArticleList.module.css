@@ -1,20 +1,24 @@
 .container {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
     box-sizing: border-box;
     border-style: dashed;
     border-color: #888888;
+    border-radius: 10px;
     background-color: #999999;
     margin: 20px;
     padding: 20px;
+    box-shadow: 0 .4rem .4rem .05rem #AAAAAA;
 }
 .item {
+    position: relative;
     box-sizing: border-box;
     list-style: none;
     background-color: white;
     border: 1px solid #cc0000;
-    margin-top: 20px;
+    border-radius: 10px;
+    margin: 20px;
     padding: 0px 10px 10px 10px;
     background-image: linear-gradient(to right, #CE5A5A, white 20%);
-}
-.item:first-child {
-    margin-top: 0px;
+    box-shadow: 0 .4rem .4rem .2rem #777777;
 }

@@ -1,7 +1,8 @@
 .button {
+    width:95%;
+    justify-content: center;
     box-sizing: border-box;
     cursor: pointer;
-    float: right;
     color: white;
     background-color: #cc0000;
     border-top: 1px solid #d8d8d8;
@@ -9,11 +10,11 @@
     border-bottom: 1px solid #bababa;
     border-right: 1px solid #d1d1d1;
     border-radius: 10px;
-    padding-left: 3em;
-    padding-right: 3em;
     padding-top: 1em;
     padding-bottom: 0.7em;
     transition: color 0.3s ease, background-color 0.3s ease;
+    position:absolute;
+    bottom:10px;
 }
 .button:hover {
     color: #c60000;
